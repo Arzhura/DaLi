@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Data Interpretation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="60" y="710" width="611" height="124" as="geometry" />
+          <mxGeometry x="60" y="793" width="611" height="124" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Biological Insight" style="rounded=1;arcSize=40;strokeWidth=2" parent="2" vertex="1">
           <mxGeometry x="43" y="46" width="151" height="49" as="geometry" />
@@ -16,43 +16,37 @@
         <mxCell id="5" value="Discovery" style="rounded=1;arcSize=40;strokeWidth=2" parent="2" vertex="1">
           <mxGeometry x="486" y="46" width="98" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Data Integration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="30" y="550" width="669" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="Metabolic Mapping" style="rounded=1;arcSize=40;strokeWidth=2" parent="6" vertex="1">
-          <mxGeometry x="43" y="46" width="163" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="Genome Comparison" style="rounded=1;arcSize=40;strokeWidth=2" parent="6" vertex="1">
-          <mxGeometry x="256" y="46" width="177" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="Data Visualization" style="rounded=1;arcSize=40;strokeWidth=2" parent="6" vertex="1">
-          <mxGeometry x="483" y="46" width="159" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="10" value="Data Analysis" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="80" y="400" width="550" height="124" as="geometry" />
+          <mxGeometry x="50" y="495" width="730" height="180" as="geometry" />
         </mxCell>
         <mxCell id="11" value="Binning" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
-          <mxGeometry x="43" y="46" width="82" height="49" as="geometry" />
+          <mxGeometry x="286.0810810810811" y="66.7741935483871" width="84.01905405405405" height="71.12903225806451" as="geometry" />
         </mxCell>
         <mxCell id="12" value="Assembling" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
-          <mxGeometry x="175" y="46" width="109" height="49" as="geometry" />
+          <mxGeometry x="157.83783783783784" y="66.7741935483871" width="108.51351351351352" height="71.12903225806451" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Functional Annotation" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
-          <mxGeometry x="335" y="46" width="189" height="49" as="geometry" />
+        <mxCell id="13" value="Functional Prediction" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
+          <mxGeometry x="572.1621621621622" y="66.7741935483871" width="127.52310810810812" height="71.12903225806451" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Raw Data" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="46" y="220" width="637" height="124" as="geometry" />
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-30" value="Quality control" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="10">
+          <mxGeometry x="19.72972972972973" y="66.7741935483871" width="128.24324324324326" height="71.12903225806451" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Raw Sequencing Reads" style="rounded=1;arcSize=40;strokeWidth=2" parent="14" vertex="1">
-          <mxGeometry x="43" y="46" width="192" height="49" as="geometry" />
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-31" value="Taxonomic classification" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="10">
+          <mxGeometry x="394.5945945945946" y="66.7741935483871" width="147.25283783783786" height="71.12903225806451" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Pre-processing" style="rounded=1;arcSize=40;strokeWidth=2" parent="14" vertex="1">
-          <mxGeometry x="285" y="46" width="134" height="49" as="geometry" />
+        <mxCell id="14" value="Sequencing -  Nucleic acid preparation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="45" y="210" width="695" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="Post-processing" style="rounded=1;arcSize=40;strokeWidth=2" parent="14" vertex="1">
-          <mxGeometry x="469" y="46" width="141" height="49" as="geometry" />
+        <mxCell id="15" value="Nucleic acid extraction" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
+          <mxGeometry x="205" y="37" width="134.69" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-19" value="Sampling Data" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="16" value="Sample material Pre-processing" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
+          <mxGeometry x="15" y="37" width="182.9" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-39" value="Nucleic acid amplification" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" vertex="1" parent="14">
+          <mxGeometry x="345" y="37" width="151.04" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-19" value="Sampling" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="45" y="50" width="637" height="124" as="geometry" />
         </mxCell>
         <mxCell id="zwraW4Ukam8c2gcRzOyC-20" value="Design Experiment" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-19">
@@ -63,6 +57,33 @@
         </mxCell>
         <mxCell id="zwraW4Ukam8c2gcRzOyC-22" value="Storage" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-19">
           <mxGeometry x="469" y="46" width="141" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-33" value="Data Archive" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="730" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-34" value="" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-33">
+          <mxGeometry x="360" y="66.77" width="163.92" height="71.13" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-35" value="" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-33">
+          <mxGeometry x="200" y="66.77" width="132.43" height="71.13" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-37" value="Sequences" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-33">
+          <mxGeometry x="19.73" y="66.77" width="140.27" height="71.13" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-38" value="" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-33">
+          <mxGeometry x="540.0045945945946" y="66.7741935483871" width="147.25283783783786" height="71.12903225806451" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-40" value="Sequencing -  Sequencing machines configuration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="45" y="350" width="695" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-41" value="Library" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-40">
+          <mxGeometry x="205" y="37" width="134.69" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-42" value="Machine technology" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-40">
+          <mxGeometry x="15" y="37" width="182.9" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-43" value="Nucleic acid amplification" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-40">
+          <mxGeometry x="345" y="37" width="151.04" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
