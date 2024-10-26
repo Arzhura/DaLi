@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.8.3">
   <diagram name="Page-1" id="eUhtq4w8cxWgcWz3ld9h">
-    <mxGraphModel dx="988" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="477.2504091653028" y="55.645161290322584" width="96.23567921440262" height="59.274193548387096" as="geometry" />
         </mxCell>
         <mxCell id="10" value="Data Analysis" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="74" y="650" width="600" height="150" as="geometry" />
+          <mxGeometry x="74" y="560" width="600" height="150" as="geometry" />
         </mxCell>
         <mxCell id="11" value="Binning" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
           <mxGeometry x="235.13513513513513" y="55.64516129032257" width="69.05675675675676" height="59.27419354838708" as="geometry" />
@@ -34,49 +34,67 @@
         <mxCell id="zwraW4Ukam8c2gcRzOyC-31" value="Taxonomic classification" style="rounded=1;arcSize=40;strokeWidth=2" parent="10" vertex="1">
           <mxGeometry x="316" y="55" width="145.68" height="59.27" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Sequencing -  Nucleic acid preparation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="74" y="290" width="600" height="150" as="geometry" />
+        <mxCell id="14" value="Sequencing" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="74" y="280" width="600" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Nucleic acid extraction" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
-          <mxGeometry x="260.8695652173913" y="44.75806451612903" width="135.65217391304347" height="60.483870967741936" as="geometry" />
+        <mxCell id="15" value="Sequencing machines" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
+          <mxGeometry x="260.8695652173913" y="44.75806451612903" width="135.65217391304347" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Sample material Pre-processing" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
-          <mxGeometry x="31.304347826086953" y="44.75806451612903" width="191.57217391304349" height="60.483870967741936" as="geometry" />
+        <mxCell id="16" value=" Nucleic acid preparation" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
+          <mxGeometry x="45.30434782608695" y="44.75806451612903" width="191.57217391304349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-39" value="Nucleic acid amplification" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
-          <mxGeometry x="427.82608695652175" y="44.75806451612903" width="156.52173913043478" height="60.483870967741936" as="geometry" />
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-39" value="" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="14" vertex="1">
+          <mxGeometry x="427.82608695652175" y="44.75806451612903" width="156.52173913043478" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-19" value="Sampling" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="74" y="30" width="600" height="195" as="geometry" />
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-37" value="&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Sample material Pre-processing&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Nucleic acid extraction&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Nucleic acid amplification&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="14">
+          <mxGeometry x="31.3" y="100" width="218.7" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-20" value="Study metadata Object" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="zwraW4Ukam8c2gcRzOyC-19" vertex="1">
-          <mxGeometry x="136.25" y="55.65" width="128" height="30" as="geometry" />
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Machine technology&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;Library&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="14">
+          <mxGeometry x="268.7" y="100" width="151.3" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-21" value="Sample metadata Object" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="zwraW4Ukam8c2gcRzOyC-19" vertex="1">
-          <mxGeometry x="308.22135007849295" y="55.64516129032257" width="187.44113029827315" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center; white-space: nowrap;&quot;&gt;Experiment Design&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Community&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;-omics&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;environment&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-19">
-          <mxGeometry x="140.25" y="105" width="120" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="zwraW4Ukam8c2gcRzOyC-19" source="IBZZdO0sH0K3nxLxbMnE-22" target="zwraW4Ukam8c2gcRzOyC-20">
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="14" source="IBZZdO0sH0K3nxLxbMnE-37" target="16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196" y="90" as="sourcePoint" />
-            <mxPoint x="566" y="320" as="targetPoint" />
+            <mxPoint x="412.22" y="-132.5" as="sourcePoint" />
+            <mxPoint x="412" y="-154" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-25" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center; white-space: nowrap;&quot;&gt;Sampling and metadata collection&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Checklists (data reporting standards)&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sampling&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zwraW4Ukam8c2gcRzOyC-19">
-          <mxGeometry x="304.22" y="107.5" width="198" height="82.5" as="geometry" />
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-19" value="Sampling" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="74" y="55.97435897435895" width="600" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IBZZdO0sH0K3nxLxbMnE-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zwraW4Ukam8c2gcRzOyC-19" source="zwraW4Ukam8c2gcRzOyC-20" target="zwraW4Ukam8c2gcRzOyC-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="546" y="410" as="sourcePoint" />
-            <mxPoint x="596" y="360" as="targetPoint" />
+            <mxPoint x="546" y="420.5128205128205" as="sourcePoint" />
+            <mxPoint x="596" y="369.23076923076917" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="zwraW4Ukam8c2gcRzOyC-19" target="zwraW4Ukam8c2gcRzOyC-21">
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-42" value="" style="group" vertex="1" connectable="0" parent="zwraW4Ukam8c2gcRzOyC-19">
+          <mxGeometry x="126" y="31.102564102564102" width="128" height="137.7948717948718" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-20" value="Study metadata Object" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="IBZZdO0sH0K3nxLxbMnE-42" vertex="1">
+          <mxGeometry width="128" height="30.769230769230766" as="geometry" />
+        </mxCell>
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center; white-space: nowrap;&quot;&gt;Experiment Design&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Community&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;-omics&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;environment&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;" vertex="1" parent="IBZZdO0sH0K3nxLxbMnE-42">
+          <mxGeometry x="4" y="50.615384615384606" width="120" height="87.17948717948717" as="geometry" />
+        </mxCell>
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="IBZZdO0sH0K3nxLxbMnE-42" source="IBZZdO0sH0K3nxLxbMnE-22" target="zwraW4Ukam8c2gcRzOyC-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="402.22" y="107.5" as="sourcePoint" />
-            <mxPoint x="396.94191522762935" y="85.64516129032256" as="targetPoint" />
+            <mxPoint x="59.75" y="35.230769230769226" as="sourcePoint" />
+            <mxPoint x="429.75" y="271.1282051282051" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-43" value="" style="group" vertex="1" connectable="0" parent="zwraW4Ukam8c2gcRzOyC-19">
+          <mxGeometry x="346.0019152276295" y="31.100082712985937" width="198" height="137.79983457402813" as="geometry" />
+        </mxCell>
+        <mxCell id="zwraW4Ukam8c2gcRzOyC-21" value="Sample metadata Object" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="IBZZdO0sH0K3nxLxbMnE-43" vertex="1">
+          <mxGeometry x="5.279434850863424" width="187.44113029827315" height="30.769230769230766" as="geometry" />
+        </mxCell>
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-25" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center; white-space: nowrap;&quot;&gt;Sampling and metadata collection&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Checklists (data reporting standards)&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sampling&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IBZZdO0sH0K3nxLxbMnE-43">
+          <mxGeometry y="53.18444995864352" width="198" height="84.61538461538461" as="geometry" />
+        </mxCell>
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="IBZZdO0sH0K3nxLxbMnE-43" source="IBZZdO0sH0K3nxLxbMnE-25" target="zwraW4Ukam8c2gcRzOyC-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56.2180847723705" y="79.15632754342431" as="sourcePoint" />
+            <mxPoint x="50.93999999999983" y="56.74110835401156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwraW4Ukam8c2gcRzOyC-33" value="Data Archive" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
@@ -94,21 +112,6 @@
         <mxCell id="zwraW4Ukam8c2gcRzOyC-38" value="" style="rounded=1;arcSize=40;strokeWidth=2" parent="zwraW4Ukam8c2gcRzOyC-33" vertex="1">
           <mxGeometry x="443.83939281747496" y="55.64516129032259" width="121.02972972972974" height="59.274193548387096" as="geometry" />
         </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-40" value="Sequencing -  Sequencing machines configuration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="74" y="470" width="600" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-41" value="Library" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="zwraW4Ukam8c2gcRzOyC-40" vertex="1">
-          <mxGeometry x="176.97841726618705" y="44.75806451612903" width="116.27913669064748" height="60.48387096774192" as="geometry" />
-        </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-42" value="Machine technology" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="zwraW4Ukam8c2gcRzOyC-40" vertex="1">
-          <mxGeometry x="12.949640287769784" y="44.75806451612903" width="157.89928057553956" height="60.48387096774192" as="geometry" />
-        </mxCell>
-        <mxCell id="zwraW4Ukam8c2gcRzOyC-43" value="Nucleic acid amplification" style="rounded=1;arcSize=40;strokeWidth=2;flipV=1;flipH=1;" parent="zwraW4Ukam8c2gcRzOyC-40" vertex="1">
-          <mxGeometry x="297.841726618705" y="44.75806451612903" width="130.39424460431653" height="60.48387096774192" as="geometry" />
-        </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="230" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="IBZZdO0sH0K3nxLxbMnE-18" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="740" width="40" height="60" as="geometry" />
         </mxCell>
@@ -118,10 +121,10 @@
             <mxPoint x="700" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBZZdO0sH0K3nxLxbMnE-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="IBZZdO0sH0K3nxLxbMnE-35" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="450" as="sourcePoint" />
-            <mxPoint x="670" y="400" as="targetPoint" />
+            <mxPoint x="374" y="620" as="sourcePoint" />
+            <mxPoint x="374" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
