@@ -1,43 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.8.3">
   <diagram name="Page-1" id="LnzeAtsBwxAe5wM71AYH">
-    <mxGraphModel>
+    <mxGraphModel dx="1432" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Species" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="113" height="49" as="geometry" />
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="50" width="672.45" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Taxonomy" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="171" y="8" width="133" height="49" as="geometry" />
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dj6BCb_uw0DlpuyReF7B-33" source="Dj6BCb_uw0DlpuyReF7B-22" target="Dj6BCb_uw0DlpuyReF7B-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Functional Annotation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="8" width="219" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Genomics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="622" y="8" width="129" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Gene Expression" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="801" y="8" width="177" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Dj6BCb_uw0DlpuyReF7B-33" source="Dj6BCb_uw0DlpuyReF7B-22" target="Dj6BCb_uw0DlpuyReF7B-25">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="306" y="150" />
+              <mxPoint x="463" y="150" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Dj6BCb_uw0DlpuyReF7B-33" source="Dj6BCb_uw0DlpuyReF7B-22" target="Dj6BCb_uw0DlpuyReF7B-27">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="306" y="150" />
+              <mxPoint x="611" y="150" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dj6BCb_uw0DlpuyReF7B-33" source="Dj6BCb_uw0DlpuyReF7B-22" target="Dj6BCb_uw0DlpuyReF7B-23">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="306" y="150" />
+              <mxPoint x="168" y="150" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Dj6BCb_uw0DlpuyReF7B-33" source="Dj6BCb_uw0DlpuyReF7B-22" target="Dj6BCb_uw0DlpuyReF7B-26">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="306" y="150" />
+              <mxPoint x="46" y="150" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-22" value="New Species" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="245.82" y="41" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-23" value="Functional Annotation" style="whiteSpace=wrap;strokeWidth=2;aspect=fixed;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="123" y="240" width="90.82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-24" value="Genomics and Gene Expression" style="whiteSpace=wrap;strokeWidth=2;aspect=fixed;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="240" y="240" width="131.63" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-25" value="Gene set extraction " style="whiteSpace=wrap;strokeWidth=2;aspect=fixed;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="403" y="240" width="119.39" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-26" value="Taxonomy" style="whiteSpace=wrap;strokeWidth=2;aspect=fixed;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry y="240" width="91.84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-27" value="Morphonet 4D exploration" style="whiteSpace=wrap;strokeWidth=2;aspect=fixed;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="550" y="240" width="122.45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj6BCb_uw0DlpuyReF7B-34" value="&lt;h1&gt;General overview of ANISEED&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Dj6BCb_uw0DlpuyReF7B-33">
+          <mxGeometry x="102.38999999999999" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
